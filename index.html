@@ -16,24 +16,66 @@
 	</head>
 	<body>
 		<header>
-			<div class="overlay">
-				<div class="container">
-					<form action="#">
+			<div class="container">
+
+				<!-- Main chat form -->
+				<form action="#" class="main_chat_form">
+					<div class="title">
+						<h2>Chat here!</h2>
+						<p>Or get our of here!</p>
+					</div>
+					<div class="form-group">
 						<div class="row">
-							<div class="col-md-5 offset-md-2">
-								<input type="text" id="name_id">
-							</div>
-							<div class="col-md-2">
-								<button id="submit_id">post</button>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-7 offset-md-2">
-								<textarea name="message" id="" cols="30" rows="10"></textarea>
-							</div>
-						</div>
-					</form>
-				</div>
+							<div class="col-md-4 offset-md-3">
+	    						<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your nick">
+	    					</div>
+	    					<div class="col-md-2">
+	    						<button type="submit" class="btn btn-primary" id="send_btn">Send</button>
+	    					</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-md-6 offset-md-3">
+    							<textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+    						</div>
+    					</div>
+  					</div>
+				</form>
+				
+				<!-- Registration form -->
+				<form action="#" class="registration_form">
+					<div class="title">
+						<h2>Registration</h2>
+						<p>Fuck yourself with your finger</p>
+					</div>
+					<div class="form-group row">
+  						<label for="name" class="col-md-2 offset-md-3 col-form-label">Name</label>
+  						<div class="col-md-4">
+    						<input class="form-control" type="text" id="name" required>
+  						</div>
+					</div>
+					<div class="form-group row">
+  						<label for="email" class="col-md-2 offset-md-3 col-form-label">Email</label>
+	  					<div class="col-md-4">
+	    					<input class="form-control" type="email" id="email" required>
+	  					</div>
+  					</div>
+  					<div class="form-group row">
+	  					<label for="password" class="col-md-2 offset-md-3 col-form-label">Password</label>
+	  					<div class="col-md-4">
+	    					<input class="form-control" type="password" id="password" required>
+	  					</div>
+					</div>
+					<div class="form-group row">
+	  					<label for="password" class="col-md-2 offset-md-3 col-form-label">Confirm password</label>
+	  					<div class="col-md-4">
+	    					<input class="form-control" type="password" id="password" required>
+	  					</div>
+					</div>
+					<div class="col-md-6 offset-md-3">
+						<button type="submit" class="btn btn-primary" id="submit_registration_btn">Submit</button>
+					</div>
+				</form>
+
 			</div>
 		</header>
 
