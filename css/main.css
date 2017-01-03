@@ -24,4 +24,18 @@ textarea {
   .title p {
     margin-bottom: 40px; }
 
+.error_block {
+  margin-top: 200px;
+  border: 1px solid #000000;
+  padding: 10px; }
+  .error_block button {
+    display: inline-block;
+    float: right; }
+  .error_block p {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0; }
+  .error_block #log_in_label {
+    margin-bottom: 20px; }
+
 /*# sourceMappingURL=main.css.map */
