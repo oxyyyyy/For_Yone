@@ -1,35 +1,38 @@
 body
 	font-family: 'Raleway', sans-serif
-	transition: 1s
+	padding-top: 150px
 
 header
-	height: 100vh
-	background-image: url("../img/cover.jpg")
-	background-size: cover
-.overlay
-	background-color: rgba(67,67,170,0.5)
-	width: 100%
-	height: 100%
+	background-color: #ffffff
+// 	height: 100vh
+// 	background-image: url("../img/cover.jpg")
+// 	background-size: cover
+// .overlay
+// 	background-color: rgba(67,67,170,0.5)
+// 	width: 100%
+// 	height: 100%
 
 input, #submit_id
 	width: 100%
 	margin-top: 15px
 	color: #ffffff
-	background-color: rgba(67,67,170,0.5)
-	border: 1px solid #2c2cae
-	border-radius: 3px
+	background-color: rgba(0,0,0,0.5)
+	border: 1px solid #000000
+	outline: none
 textarea
 	width: 100%
 	margin-top: 15px
 	color: #ffffff
-	background-color: rgba(67,67,170,0.5)
-	border: 1px solid #2c2cae
-	border-radius: 3px
+	background-color: rgba(0,0,0,0.5)
+	border: 1px solid #000000
 	resize: none
-#name_id, #submit_id
-	margin-top: 150px
+	outline: none
 #massage_id
 	height: 100px
 #submit_id
 	text-transform: uppercase
 	font-weight: 700
+	outline: none
+	transition: 0.5s
+	&:hover
+		box-shadow: 0 0 10px rgba(0,0,0,0.5)
